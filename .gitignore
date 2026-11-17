@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+*.pyc
+
+.hub-cache/
+.env.*
+!.env.example
+*.log
+*.zip
+docs/EVALUATION_KEY_PRIVATE*
+data/stations.csv
+data/tourist_spots.csv
+data/vehicles.csv
+static/charge_history.json
+data/hub_snapshot.json

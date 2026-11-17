@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>제주 EV Plan B AI</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="/static/leaflet/leaflet.css">
+<link rel="stylesheet" href="/static/app.css?v=submission-status1">
+</head>
+<body>
+<div class="app">
+
+  <!-- ===================== 사이드바 ===================== -->
+  <aside class="side">
+    <div class="logo">
+      <svg viewBox="0 0 48 40" aria-hidden="true"><path d="M6 28v-7l5-9c1-2 3-3 5-3h14c2 0 4 1 5 3l5 9v7" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M4 28h40v5a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-1H12v1a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z" fill="currentColor"/><path d="M38 2v6m4-6v6m-6 0h8v3a4 4 0 0 1-8 0z" stroke="#2F6BFF" stroke-width="2.5" fill="#2F6BFF"/></svg>
+      <b>제주 EV Plan B AI</b>
+    </div>
+
+    <nav class="nav" id="nav">
+      <button class="on" data-view="recommend"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7a1 1 0 0 1-1 1h-1v8h-5v-6h-4v6H5v-8H4a1 1 0 0 1-1-1z"/></svg>충전 추천</button>
+      <button data-view="map"><svg viewBox="0 0 24 24"><path d="M12 22s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>제주 지도</button>
+      <button data-view="trips"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>최근 계획</button>
+      <button data-view="places"><svg viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></svg>자주 가는 곳</button>
+    </nav>
+
+    <details class="settings" id="settingsBox">
+      <summary><i class="setting-icon" data-glyph="car"></i><span>내 차<b id="settingsSummary">차량과 배터리 설정</b></span></summary>
+    <section class="mycar">
+      <div class="garage photo-garage"><div class="garage-title"><small>MY GARAGE</small><strong id="garageName"></strong></div><div id="carArt"></div></div>
+      <label class="lbl" for="vehicleSel">차량 선택</label>
+      <select id="vehicleSel" aria-label="차량"></select>
+      <div id="customConnectorBox" hidden>
+        <label class="lbl" for="connectorSel">내 차량의 충전 규격</label>
+        <select id="connectorSel">
+          <option value="">충전 규격을 선택하세요</option>
+          <option value="DC콤보">DC콤보 (CCS1)</option>
+          <option value="DC차데모">DC차데모</option>
+          <option value="AC3상">AC 3상</option>
+          <option value="AC완속">AC 완속</option>
+          <option value="NACS">NACS</option>
+          <option value="모름">잘 모르겠어요</option>
+        </select>
+        <p id="connectorHint" class="hint">차량 설명서 또는 충전구 표기를 확인해 주세요. 현재 추천 데이터는 DC콤보·50kW 이상 시설입니다.</p>
+      </div>
+
+      <div class="lbl row"><span><svg viewBox="0 0 24 24"><rect x="3" y="7" width="16" height="10" rx="2"/><path d="M21 10v4"/><rect x="5" y="9" width="6" height="6" fill="currentColor" stroke="none"/></svg>현재 배터리</span><b id="battPct">40%</b></div>
+      <input type="range" id="battRange" min="5" max="100" step="1" value="40" aria-label="현재 배터리">
+
+      <div class="lbl row"><span><svg viewBox="0 0 24 24"><path d="M5 20L10 4M19 20L14 4M12 6v2M12 11v2M12 16v2"/></svg>예상 주행거리</span><b class="blue" id="rangeKm">-</b></div>
+
+      <label class="lbl"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>지금 있는 곳 <small>(선택)</small></label>
+      <div class="origin">
+        <input id="originInput" type="text" placeholder="예: 제주공항, 노형동">
+        <button type="button" id="geoBtn" title="내 위치 사용" aria-label="내 위치 사용">◎</button>
+      </div>
+      <small class="hint" id="geoHint"></small>
+    </section>
+
+    </details>
+    <details class="settings" id="criteriaBox">
+      <summary><i class="setting-icon criteria-icon" data-glyph="sliders"></i><span>충전소 추천 기준<b id="prefSummary">균형 추천</b></span></summary>
+      <section class="criteria">
+        <div class="tiles" id="prefTiles" aria-label="추천 기준">
+          <button data-v="균형 추천"><i data-glyph="balance"></i>균형 추천</button><button data-v="이동시간 우선"><i data-glyph="time"></i>이동시간</button>
+          <button data-v="대기 위험 우선"><i data-glyph="wait"></i>대기 위험</button><button data-v="Plan B 우선"><i data-glyph="backup"></i>대체 충전소</button>
+        </div><p class="hint" id="prefHint"></p>
+      </section>
+    </details>
+
+    <div class="side-foot">
+      <button class="conn" id="connBtn" type="button"><span class="sdot" id="liveDot"></span><span id="liveLabel">연결 확인 중</span></button>
+      <p>ⓘ 운영 상태는 출발 전 다시 확인해 주세요</p>
+    </div>
+  </aside>
+
+  <!-- ===================== 본문 ===================== -->
+  <main class="main">
+    <header class="hero">
+      <svg class="hero-art" viewBox="0 0 1200 260" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1F6FE5"/><stop offset=".65" stop-color="#5FA8F5"/><stop offset="1" stop-color="#A9D6FA"/></linearGradient>
+          <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1E8FD8"/><stop offset="1" stop-color="#0B5FB0"/></linearGradient>
+          <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4F8A4A"/><stop offset="1" stop-color="#2F5E35"/></linearGradient>
+          <radialGradient id="fl"><stop offset="0" stop-color="#FFE45C"/><stop offset="1" stop-color="#F2C21B"/></radialGradient>
+        </defs>
+        <rect width="1200" height="260" fill="url(#sky)"/>
+        <g fill="#fff" opacity=".75"><ellipse cx="760" cy="48" rx="70" ry="16"/><ellipse cx="820" cy="40" rx="48" ry="12"/><ellipse cx="1040" cy="70" rx="50" ry="14"/><ellipse cx="1100" cy="60" rx="36" ry="10"/><ellipse cx="560" cy="60" rx="40" ry="9"/></g>
+        <rect y="150" width="1200" height="110" fill="url(#sea)"/>
+        <path d="M0 158 Q300 150 600 156 T1200 152 V160 H0Z" fill="#9BD3F7" opacity=".5"/>
+        <!-- 성산일출봉을 닮은 오름 실루엣 -->
+        <path d="M820 156 C860 150 880 128 905 104 L930 92 C960 86 1010 86 1040 92 L1068 106 C1090 122 1110 146 1160 154 L1200 156 V162 H820Z" fill="url(#hill)"/>
+        <path d="M930 92 C960 98 1010 98 1040 92" stroke="#6FA867" stroke-width="3" fill="none"/>
+        <path d="M700 158 C740 152 780 150 820 156 L820 162 H700Z" fill="#3E7343"/>
+        <g fill="#fff" opacity=".35"><rect x="80" y="186" width="24" height="2"/><rect x="300" y="206" width="38" height="2"/><rect x="520" y="180" width="30" height="2"/></g>
+        <g fill="url(#fl)" id="flowers"></g>
+      </svg>
+      <div class="hero-shade"></div>
+      <div class="hero-in">
+        <div class="hero-top"><span class="hero-chip" id="heroChip">● 실시간 확인 중</span></div>
+        <h1>제주 EV Plan B AI</h1>
+        <p>충전소를 찾는 것에서, 다음 선택지까지</p>
+        <form class="search" id="askForm" autocomplete="off">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+          <textarea id="askInput" rows="1" required placeholder="목적지와 충전 조건을 알려주세요" aria-label="가는 곳이나 상황"></textarea>
+          <button type="submit">추천받기 <span>›</span></button>
+        </form>
+      </div>
+    </header>
+
+    <div class="content">
+      <section class="mapcard">
+        <div id="map"></div>
+        <div id="kmap" hidden></div><div id="kfit" hidden><button data-kfit="all">전체 경로</button><button data-kfit="ab">충전소 확대</button></div>
+        <span class="map-chip" id="mapChip">📍 제주도 전체</span>
+        <div class="legend" id="legend"></div>
+      </section>
+
+      <section class="result" id="result"></section>
+    </div>
+  </main>
+</div>
+
+<div class="sheet-bg" id="sheetBg" hidden></div>
+<section class="sheet" id="connSheet" hidden aria-label="연결 상태">
+  <h2>연결 상태</h2>
+  <ul class="connlist" id="connList"></ul>
+  <div class="row-btns">
+    <button type="button" class="ghost" id="liveRefresh">실시간 다시 불러오기</button>
+    <button type="button" class="ghost" id="datahubRefresh">제주데이터허브 점검</button>
+    <button type="button" class="ghost" id="geminiCheck">Gemini 연결 점검</button>
+  </div>
+  <p class="hint" id="checkMsg"></p>
+  <button type="button" class="primary wide" data-close>닫기</button>
+</section>
+
+<aside class="switch-toast" id="switchToast" hidden aria-live="assertive">
+  <button class="toast-x" id="toastClose" type="button" aria-label="닫기">×</button>
+  <span class="toast-icon">⚡</span>
+  <div><b>Plan A 상태가 바뀌었어요</b><p id="toastText">현재 충전소 이용이 어려울 수 있어요. Plan B로 경로를 바꿀까요?</p></div>
+  <a id="toastGo" target="_blank" rel="noopener">Plan B로 길찾기</a>
+</aside>
+
+<script src="/static/leaflet/leaflet.min.js"></script>
+<script src="/static/kakao-view.js?v=1"></script>
+<script src="/static/app.js?v=submission-snapshot2"></script>
+</body>
+</html>

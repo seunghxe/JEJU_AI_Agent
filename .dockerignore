@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+.venv
+.git
+.hub-cache
+__pycache__
+.pytest_cache
+*.log
+*.zip
+docs/EVALUATION_KEY_PRIVATE*

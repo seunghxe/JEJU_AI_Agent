@@ -1,0 +1,208 @@
+{
+  "checked_at": "2026-11-18T00:36:42.922058+09:00",
+  "python": "3.12.14",
+  "os": "Linux",
+  "mode": "No real API credentials; portable real Hub aggregates, mocked API tests, local API examples",
+  "hub_status": {
+    "state": "on",
+    "text": "저장 자료 · weekly 346건 / wait 16건 / daily 340건 / floating 43건",
+    "checked_at": null,
+    "mode": "snapshot",
+    "fallback_count": 281,
+    "source": "제주데이터허브 저장 집계 + 동봉 과거 이력",
+    "loaded": {
+      "weekly": 346,
+      "wait": 16,
+      "daily": 340,
+      "floating": 43
+    },
+    "errors": {},
+    "details": {
+      "weekly": {
+        "start": "202206",
+        "end": "202206",
+        "rows": 8464,
+        "matched": 346,
+        "complete": true,
+        "row_checks": {
+          "식별 필드 인식": 8464,
+          "시설/지역 일치": 7261,
+          "숫자 해석": 8464,
+          "요일 해석": 8464,
+          "조건 동시 충족": 7261
+        },
+        "raw_unique": 476,
+        "cached": true,
+        "bundled": true
+      },
+      "wait": {
+        "start": "20220701",
+        "end": "20221031",
+        "rows": 1883,
+        "matched": 16,
+        "complete": true,
+        "row_checks": {
+          "식별 필드 인식": 1883,
+          "시설/지역 일치": 1830,
+          "숫자 해석": 1883,
+          "조건 동시 충족": 1830
+        },
+        "raw_unique": 17,
+        "cached": true,
+        "bundled": true
+      },
+      "daily": {
+        "start": "20220601",
+        "end": "20220607",
+        "rows": 5941,
+        "matched": 340,
+        "complete": true,
+        "row_checks": {
+          "식별 필드 인식": 5941,
+          "시설/지역 일치": 5073,
+          "숫자 해석": 5941,
+          "조건 동시 충족": 5073
+        },
+        "raw_unique": 467,
+        "cached": true,
+        "bundled": true
+      },
+      "floating": {
+        "start": "20220601",
+        "end": "20220601",
+        "rows": 774,
+        "matched": 43,
+        "complete": true,
+        "row_checks": {
+          "식별 필드 인식": 774,
+          "시설/지역 일치": 774,
+          "숫자 해석": 774,
+          "조건 동시 충족": 774
+        },
+        "raw_unique": 43,
+        "cached": true,
+        "bundled": true
+      }
+    },
+    "configured_datasets": []
+  },
+  "checks": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q",
+        "tests"
+      ],
+      "exit_code": 0,
+      "output": "....................................................................     [100%]\n=============================== warnings summary ===============================\n../testenv/lib/python3.12/site-packages/starlette/testclient.py:37\n  <workspace>/testenv/lib/python3.12/site-packages/starlette/testclient.py:37: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.\n    _PortalFactoryType = typing.Callable[[], typing.ContextManager[anyio.abc.BlockingPortal]]\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n68 passed, 1 warning in 2.12s\n"
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "static/app.js"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "node",
+        "tests/check_garage_ui.cjs"
+      ],
+      "exit_code": 0,
+      "output": "OK: multiline submit, clear, IME, empty/length validation, original text, six model photos\n"
+    },
+    {
+      "command": [
+        "node",
+        "tests/check_status_ui.cjs"
+      ],
+      "exit_code": 0,
+      "output": "OK: compact hub status; details collapsed; counts retained; loading/error/partial states\n"
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "output": "No broken requirements found.\n"
+    }
+  ],
+  "examples": [
+    {
+      "query": "성산일출봉 근처 충전소 찾아줘. 배터리는 30%야",
+      "http_status": 200,
+      "ok": true,
+      "battery": 30,
+      "memory": {
+        "destination": "성산일출봉",
+        "battery": 30,
+        "excluded_count": 0,
+        "turn_count": 1,
+        "framework": "LangGraph",
+        "persistence": "서버 실행 중 세션 기억"
+      },
+      "clarify": null,
+      "summary": "성산일출봉 근처에서는 성산일출봉을(를) 추천해요. 평소 운영이 안정적인 곳이에요. 대체 후보는 휴안스테이호텔(직선 0.2km, 차량경로 미확인)이며 현재 상태는 미확인입니다. 배터리 30%면 약 107km 갈 수 있으니 여유 있게 충전해 두세요.",
+      "A": "성산일출봉",
+      "B": "휴안스테이호텔"
+    },
+    {
+      "query": "Plan A는 빼고 다시 찾아줘",
+      "http_status": 200,
+      "ok": true,
+      "battery": 30,
+      "memory": {
+        "destination": "성산일출봉",
+        "battery": 30,
+        "excluded_count": 1,
+        "turn_count": 2,
+        "framework": "LangGraph",
+        "persistence": "서버 실행 중 세션 기억"
+      },
+      "clarify": null,
+      "summary": "성산일출봉 근처에서는 제주서귀포성산파출소을(를) 추천해요. 평소 운영이 안정적인 곳이에요. 대체 후보는 휴안스테이호텔(직선 0.2km, 차량경로 미확인)이며 현재 상태는 미확인입니다. 배터리 30%면 약 107km 갈 수 있으니 여유 있게 충전해 두세요.",
+      "A": "제주서귀포성산파출소",
+      "B": "휴안스테이호텔"
+    },
+    {
+      "query": "zzqqxx",
+      "http_status": 200,
+      "ok": false,
+      "battery": 40,
+      "memory": {
+        "destination": "성산일출봉",
+        "battery": 40,
+        "excluded_count": 1,
+        "turn_count": 3,
+        "framework": "LangGraph",
+        "persistence": "서버 실행 중 세션 기억"
+      },
+      "clarify": true,
+      "summary": "어느 동네로 가시나요? 정확한 가게 이름이나 기준으로 삼을 가까운 명소를 알려주세요.",
+      "A": null,
+      "B": null
+    }
+  ],
+  "data_sha256": {
+    "data/vehicles.csv": "8d476ac955e7c92b0c66661ced6468733e3b8afc44dec9686eac6417436baf17",
+    "data/stations.csv": "446964f0bfe0d43fc38986b5f4862da441ef5d4c8ed81b10337c585edddf22df",
+    "data/tourist_spots.csv": "f60a1b6bfe3cebeec769c3a2328b11b94fd2a5f52414433993636cc99e03f100",
+    "data/hub_snapshot.json": "a051ad1dc6157a7e65a2b3a34ffaa9005c3e940ad54671e0ebd8800da973b6f1",
+    "static/charge_history.json": "4f7c93841aa79e59e80c7d88797406cda85b8736e9a9796051f7ecf357c96d3f"
+  },
+  "not_verified": [
+    "Windows",
+    "mobile browser",
+    "live external APIs",
+    "deployed URL",
+    "Docker build",
+    "real charging outcomes"
+  ]
+}

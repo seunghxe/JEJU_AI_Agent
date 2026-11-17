@@ -1,0 +1,16 @@
+# Render Dashboard > New > Blueprint. Review the plan and settings before deployment.
+services:
+  - type: web
+    name: jeju-ev-planb
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: NO_BROWSER
+        value: "1"
+      - key: JEJU_DATAHUB_MODE
+        value: snapshot
