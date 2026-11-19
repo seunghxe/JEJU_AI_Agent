@@ -1,1 +1,160 @@
-IiIiTGFuZ0dyYXBoIOq4sOuwmCDrqYDti7DthLQg64yA7ZmUIOyDge2DnCDqtIDrpqwuCgrqsJnsnYAgdGhyZWFkX2lk7JeQ7IScIOuqqeyggeyngCwg67Cw7YSw66asLCDsnbTsoIQg7LaU7LKcLCDsoJzsmbgg7Iuc7ISk6rO8IOyEoO2YuOyhsOqxtOydhCDsnbTslrTrsJvripTri6QuCuustOujjCDroZzsu6wg7Iuk7ZaJ7J2EIOychO2VtCBJbk1lbW9yeVNhdmVy66W8IOyCrOyaqe2VmOuvgOuhnCDshJzrsoTrpbwg7J6s7Iuc7J6R7ZWY66m0IOyDge2DnOuKlCDstIjquLDtmZTrkJzri6QuCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgcmUKZnJvbSB0eXBpbmcgaW1wb3J0IEFueQpmcm9tIHR5cGluZ19leHRlbnNpb25zIGltcG9ydCBUeXBlZERpY3QKCmZyb20gbGFuZ2dyYXBoLmNoZWNrcG9pbnQubWVtb3J5IGltcG9ydCBJbk1lbW9yeVNhdmVyCmZyb20gbGFuZ2dyYXBoLmdyYXBoIGltcG9ydCBFTkQsIFNUQVJULCBTdGF0ZUdyYXBoCgpmcm9tIGFnZW50X2NvcmUgaW1wb3J0IGV4dHJhY3RfYmF0dGVyeQpmcm9tIG1lcmNoYW50X3BsYWNlcyBpbXBvcnQgc2hvcF9xdWVyeQoKCmNsYXNzIENvbnZlcnNhdGlvblN0YXRlKFR5cGVkRGljdCwgdG90YWw9RmFsc2UpOgogICAgcXVlcnk6IHN0cgogICAgY29ubmVjdG9yOiBzdHIgfCBOb25lCiAgICB2ZWhpY2xlOiBzdHIgfCBOb25lCiAgICBiYXR0ZXJ5OiBpbnQKICAgIGJhdHRlcnlfb3ZlcnJpZGU6IGJvb2wKICAgIG9yaWdpbjogc3RyCiAgICBvcmlnaW5fbGF0OiBmbG9hdCB8IE5vbmUKICAgIG9yaWdpbl9sb246IGZsb2F0IHwgTm9uZQogICAgcHJlZmVyZW5jZTogc3RyCiAgICBjb3VudDogaW50CiAgICBzZWxlY3RlZF9wbGFjZTogZGljdFtzdHIsIEFueV0gfCBOb25lCiAgICBkZXN0aW5hdGlvbjogc3RyCiAgICBleGNsdWRlZF9pZHM6IGxpc3Rbc3RyXQogICAgcmVzdWx0OiBkaWN0W3N0ciwgQW55XQogICAgdHVybnM6IGxpc3RbZGljdFtzdHIsIHN0cl1dCgoKRk9MTE9XVVBfV09SRFMgPSAoIuu5vOqzoCIsICLrp5Dqs6AiLCAi7KCc7Jm4IiwgIuuLpOyLnCIsICLri6Trpbgg6rOzIiwgIuuNlCDqsIDquYwiLCAi642UIOyViOyglSIsICLrjZQg7JWI7KCEIiwgIuuMgOq4sCDsnITtl5giLCAi7J2064+Z7Iuc6rCEIikKQkFUVEVSWV9PTkxZID0gcmUuY29tcGlsZSgKICAgIHIiKD86KD867KeA6riIfO2YhOyerClccyopPyg/OuuwsO2EsOumrCg/OlxzKuyelOufiSk/KD867J2AfOuKlHzsnbR86rCAKT9ccyopPyIKICAgIHIiXGR7MSwzfVxzKig/OiV87Y287IS87Yq4fO2UhOuhnClccyoiCiAgICByIig/OuyVvHzsnbTslbx87JiI7JqUfOydtOyXkOyalHzsnoXri4jri6R864Ko7JWY7Ja0KD867JqUKT9866GcXHMqKD8667CU6r+UXHMq7KSYfOuLpOyLnFxzKuy2lOyynO2VtFxzKuykmCkpP1suIT9dPyIKKQoKCmNsYXNzIENvbnZlcnNhdGlvbkdyYXBoOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHNlcnZpY2UpOgogICAgICAgIHNlbGYuc2VydmljZSA9IHNlcnZpY2UKICAgICAgICBidWlsZGVyID0gU3RhdGVHcmFwaChDb252ZXJzYXRpb25TdGF0ZSkKICAgICAgICBidWlsZGVyLmFkZF9ub2RlKCJwbGFuIiwgc2VsZi5fcGxhbikKICAgICAgICBidWlsZGVyLmFkZF9lZGdlKFNUQVJULCAicGxhbiIpCiAgICAgICAgYnVpbGRlci5hZGRfZWRnZSgicGxhbiIsIEVORCkKICAgICAgICBzZWxmLm1lbW9yeSA9IEluTWVtb3J5U2F2ZXIoKQogICAgICAgIHNlbGYuZ3JhcGggPSBidWlsZGVyLmNvbXBpbGUoY2hlY2twb2ludGVyPXNlbGYubWVtb3J5KQoKICAgIGRlZiBfaGFzX2xvY2FsX3BsYWNlKHNlbGYsIHF1ZXJ5OiBzdHIpIC0+IGJvb2w6CiAgICAgICAgcSA9IHF1ZXJ5LnJlcGxhY2UoIiAiLCAiIikubG93ZXIoKQogICAgICAgIHNwb3RfY29sID0gIuq0gOq0keyngOuqhSIgaWYgIuq0gOq0keyngOuqhSIgaW4gc2VsZi5zZXJ2aWNlLnNwb3RzLmNvbHVtbnMgZWxzZSAi7J6l7IaM66qFIgogICAgICAgIGtub3duID0gbGlzdChzZWxmLnNlcnZpY2Uuc3BvdHNbc3BvdF9jb2xdLmRyb3BuYSgpLmFzdHlwZShzdHIpKQogICAgICAgIGtub3duICs9IGxpc3Qoc2VsZi5zZXJ2aWNlLnN0YXRpb25zWyLstqnsoITshozrqoUiXS5kcm9wbmEoKS5hc3R5cGUoc3RyKSkKICAgICAgICAjIOydjcK366m0wrfrj5nsspjrn7wg66qF7ZmV7ZWcIO2WieygleyngOuqheuPhCDsg4gg66qp7KCB7KeA66GcIOy3qOq4ie2VnOuLpC4KICAgICAgICBpZiBzaG9wX3F1ZXJ5KHF1ZXJ5KSBvciBhbnkoc3RyKHBsYWNlKSBpbiBxdWVyeSBmb3IgcGxhY2UgaW4gc2VsZi5zZXJ2aWNlLnN0YXRpb25zWyLsnY3rqbTrj5kiXS5kcm9wbmEoKS51bmlxdWUoKSk6CiAgICAgICAgICAgIHJldHVybiBUcnVlCiAgICAgICAgcmV0dXJuIGFueShuYW1lLnJlcGxhY2UoIiAiLCAiIikubG93ZXIoKSBpbiBxIGZvciBuYW1lIGluIGtub3duIGlmIGxlbihuYW1lKSA+PSAyKQoKICAgIGRlZiBfcGxhbihzZWxmLCBzdGF0ZTogQ29udmVyc2F0aW9uU3RhdGUpIC0+IGRpY3Rbc3RyLCBBbnldOgogICAgICAgIHF1ZXJ5ID0gKHN0YXRlLmdldCgicXVlcnkiKSBvciAiIikuc3RyaXAoKQogICAgICAgIHByZXZpb3VzID0gc3RhdGUuZ2V0KCJyZXN1bHQiKSBpZiBpc2luc3RhbmNlKHN0YXRlLmdldCgicmVzdWx0IiksIGRpY3QpIGVsc2UgTm9uZQogICAgICAgIGV4Y2x1ZGVkID0gbGlzdChkaWN0LmZyb21rZXlzKHN0YXRlLmdldCgiZXhjbHVkZWRfaWRzIikgb3IgW10pKQoKICAgICAgICBpZiBwcmV2aW91cyBhbmQgcHJldmlvdXMuZ2V0KCJvayIpIGFuZCBhbnkodyBpbiBxdWVyeSBmb3IgdyBpbiAoIuu5vOqzoCIsICLrp5Dqs6AiLCAi7KCc7Jm4IikpOgogICAgICAgICAgICBjb21wYWN0ID0gcmUuc3ViKHIiXHMrIiwgIiIsIHF1ZXJ5Lmxvd2VyKCkpCiAgICAgICAgICAgIGZvciBwbGFuIGluICgiQSIsICJCIik6CiAgICAgICAgICAgICAgICBzdGF0aW9uID0gcHJldmlvdXMuZ2V0KHBsYW4pIG9yIHt9CiAgICAgICAgICAgICAgICBsYWJlbCA9IHBsYW4ubG93ZXIoKQogICAgICAgICAgICAgICAgaWYgKGYicGxhbntsYWJlbH0iIGluIGNvbXBhY3Qgb3IgZiLtlIzrnpx7bGFiZWx9IiBpbiBjb21wYWN0KSBhbmQgc3RhdGlvbi5nZXQoImlkIik6CiAgICAgICAgICAgICAgICAgICAgZXhjbHVkZWQuYXBwZW5kKHN0cihzdGF0aW9uWyJpZCJdKSkKICAgICAgICBpZiBwcmV2aW91cyBhbmQgcHJldmlvdXMuZ2V0KCJvayIpIGFuZCAi64uk66W4IOqzsyIgaW4gcXVlcnk6CiAgICAgICAgICAgIHN0YXRpb24gPSBwcmV2aW91cy5nZXQoIkEiKSBvciB7fQogICAgICAgICAgICBpZiBzdGF0aW9uLmdldCgiaWQiKToKICAgICAgICAgICAgICAgIGV4Y2x1ZGVkLmFwcGVuZChzdHIoc3RhdGlvblsiaWQiXSkpCiAgICAgICAgZXhjbHVkZWQgPSBsaXN0KGRpY3QuZnJvbWtleXMoZXhjbHVkZWQpKQoKICAgICAgICBleHBsaWNpdF9iYXR0ZXJ5ID0gZXh0cmFjdF9iYXR0ZXJ5KHF1ZXJ5KQogICAgICAgIGJhdHRlcnlfb25seSA9IGV4cGxpY2l0X2JhdHRlcnkgaXMgbm90IE5vbmUgYW5kIEJBVFRFUllfT05MWS5mdWxsbWF0Y2gocXVlcnkpIGlzIG5vdCBOb25lCiAgICAgICAgaXNfZm9sbG93dXAgPSBiYXR0ZXJ5X29ubHkgb3IgYW55KHcgaW4gcXVlcnkgZm9yIHcgaW4gRk9MTE9XVVBfV09SRFMpCiAgICAgICAgY29udGV4dHVhbCA9IGJvb2wocHJldmlvdXMgYW5kIHByZXZpb3VzLmdldCgib2siKSBhbmQgaXNfZm9sbG93dXAgYW5kIG5vdCBzZWxmLl9oYXNfbG9jYWxfcGxhY2UocXVlcnkpKQogICAgICAgIGNvbnRleHRfcGxhY2UgPSBwcmV2aW91c1siZGVzdCJdWyJuYW1lIl0gaWYgY29udGV4dHVhbCBlbHNlIE5vbmUKICAgICAgICBjbGFyaWZ5aW5nID0gYm9vbChwcmV2aW91cyBhbmQgcHJldmlvdXMuZ2V0KCJjbGFyaWZ5IikpCiAgICAgICAgbG9va3VwX3F1ZXJ5ID0gcXVlcnkKICAgICAgICBpZiBjbGFyaWZ5aW5nIGFuZCBwcmV2aW91cy5nZXQoInBsYWNlX3JldHJ5Iik6CiAgICAgICAgICAgIGRpc3RyaWN0ID0gcmUuZnVsbG1hdGNoKHIiKFvqsIAt7Z6jXXsyLDEwfT8pKD867J207JW8fOydtOyXkOyalHzsmIjsmpR87J207JqUfOyqveydtOyVvCk/Wy4hXT8iLCBxdWVyeSkKICAgICAgICAgICAgaWYgZGlzdHJpY3Q6CiAgICAgICAgICAgICAgICByZWdpb24gPSBkaXN0cmljdFsxXQogICAgICAgICAgICAgICAga25vd25fcmVnaW9ucyA9IHNldChzZWxmLnNlcnZpY2Uuc3RhdGlvbnNbIuydjeuptOuPmSJdLmRyb3BuYSgpLmFzdHlwZShzdHIpKSB8IHsi7KCc7KO87IucIiwi7ISc6reA7Y+sIiwi7JWg7JuUIiwi7ZWo642VIiwi7ISx7IKwIiwi7ZWc66a8Iiwi7KSR66y4Iiwi7ZiR7J6sIn0KICAgICAgICAgICAgICAgIGlmIHJlZ2lvbiBpbiBrbm93bl9yZWdpb25zOgogICAgICAgICAgICAgICAgICAgIGxvb2t1cF9xdWVyeSA9ICLrqqnsoIHsp4A6ICIgKyByZWdpb24gKyAiICIgKyBwcmV2aW91c1sicGxhY2VfcmV0cnkiXQoKICAgICAgICBiYXR0ZXJ5ID0gaW50KHN0YXRlLmdldCgiYmF0dGVyeSIsIDQwKSkKICAgICAgICBpZiBleHBsaWNpdF9iYXR0ZXJ5IGlzIG5vdCBOb25lOgogICAgICAgICAgICBiYXR0ZXJ5ID0gZXhwbGljaXRfYmF0dGVyeQogICAgICAgIGVsaWYgcHJldmlvdXMgYW5kIG5vdCBzdGF0ZS5nZXQoImJhdHRlcnlfb3ZlcnJpZGUiLCBGYWxzZSkgYW5kIChjbGFyaWZ5aW5nIG9yIGNvbnRleHR1YWwgb3IgIuyVhOq5jOuekSDqsJkiIGluIHF1ZXJ5IG9yICLqt7jrjIDroZwiIGluIHF1ZXJ5KToKICAgICAgICAgICAgYmF0dGVyeSA9IGludChwcmV2aW91cy5nZXQoImJhdHRlcnkiLCBwcmV2aW91cy5nZXQoIm1lbW9yeSIsIHt9KS5nZXQoImJhdHRlcnkiLCBiYXR0ZXJ5KSkpCgogICAgICAgIHByZWZlcmVuY2UgPSBzdGF0ZS5nZXQoInByZWZlcmVuY2UiLCAi6reg7ZiVIOy2lOyynCIpCiAgICAgICAgaWYgIuuMgOq4sCDsnITtl5giIGluIHF1ZXJ5IG9yICLrjIDquLAg7KCBIiBpbiBxdWVyeSBvciAi6riw64uk66a0IOychO2XmCIgaW4gcXVlcnkgb3IgIuuNnCDquLDri6QiIGluIHF1ZXJ5OgogICAgICAgICAgICBwcmVmZXJlbmNlID0gIuuMgOq4sCDsnITtl5gg7Jqw7ISgIgogICAgICAgIGVsaWYgIuuNlCDqsIDquYwiIGluIHF1ZXJ5IG9yICLsnbTrj5nsi5zqsIQiIGluIHF1ZXJ5OgogICAgICAgICAgICBwcmVmZXJlbmNlID0gIuydtOuPmeyLnOqwhCDsmrDshKAiCiAgICAgICAgZWxpZiAicGxhbiBiIiBpbiBxdWVyeS5sb3dlcigpIGFuZCBhbnkodyBpbiBxdWVyeSBmb3IgdyBpbiAoIuyViOyghCIsIuyViOyglSIpKToKICAgICAgICAgICAgcHJlZmVyZW5jZSA9ICJQbGFuIEIg7Jqw7ISgIgoKICAgICAgICByZXN1bHQgPSBzZWxmLnNlcnZpY2UuYXNrKAogICAgICAgICAgICBxdWVyeT1sb29rdXBfcXVlcnksCiAgICAgICAgICAgIHZlaGljbGU9c3RhdGUuZ2V0KCJ2ZWhpY2xlIiksCiAgICAgICAgICAgIGNvbm5lY3Rvcj1zdGF0ZS5nZXQoImNvbm5lY3RvciIpLAogICAgICAgICAgICBiYXR0ZXJ5PWJhdHRlcnksCiAgICAgICAgICAgIG9yaWdpbl90ZXh0PXN0YXRlLmdldCgib3JpZ2luIiwgIiIpLAogICAgICAgICAgICBvcmlnaW5fbGF0PXN0YXRlLmdldCgib3JpZ2luX2xhdCIpLAogICAgICAgICAgICBvcmlnaW5fbG9uPXN0YXRlLmdldCgib3JpZ2luX2xvbiIpLAogICAgICAgICAgICBwcmVmZXJlbmNlPXByZWZlcmVuY2UsCiAgICAgICAgICAgIGNvdW50PWludChzdGF0ZS5nZXQoImNvdW50IiwgMykpLAogICAgICAgICAgICBjb250ZXh0X3BsYWNlPWNvbnRleHRfcGxhY2UsCiAgICAgICAgICAgIGV4Y2x1ZGVfaWRzPWV4Y2x1ZGVkLAogICAgICAgICAgICBzZWxlY3RlZF9wbGFjZT1zdGF0ZS5nZXQoInNlbGVjdGVkX3BsYWNlIiksCiAgICAgICAgKQoKICAgICAgICByZXN1bHRbInF1ZXJ5Il0gPSBxdWVyeQogICAgICAgIHR1cm5zID0gbGlzdChzdGF0ZS5nZXQoInR1cm5zIikgb3IgW10pCiAgICAgICAgdHVybnMuYXBwZW5kKHsicm9sZSI6ICJ1c2VyIiwgInRleHQiOiBxdWVyeX0pCiAgICAgICAgdHVybnMuYXBwZW5kKHsicm9sZSI6ICJhc3Npc3RhbnQiLCAidGV4dCI6IHJlc3VsdC5nZXQoInN1bW1hcnkiLCAiIil9KQogICAgICAgIHR1cm5zID0gdHVybnNbLTg6XQogICAgICAgIGRlc3RpbmF0aW9uID0gcmVzdWx0LmdldCgiZGVzdCIsIHt9KS5nZXQoIm5hbWUiKSBpZiByZXN1bHQuZ2V0KCJvayIpIGVsc2Ugc3RhdGUuZ2V0KCJkZXN0aW5hdGlvbiIsICIiKQogICAgICAgIHJlc3VsdFsibWVtb3J5Il0gPSB7CiAgICAgICAgICAgICJkZXN0aW5hdGlvbiI6IGRlc3RpbmF0aW9uLAogICAgICAgICAgICAiYmF0dGVyeSI6IHJlc3VsdC5nZXQoImJhdHRlcnkiLCBiYXR0ZXJ5KSwKICAgICAgICAgICAgImV4Y2x1ZGVkX2NvdW50IjogbGVuKGV4Y2x1ZGVkKSwKICAgICAgICAgICAgInR1cm5fY291bnQiOiBsZW4oW3QgZm9yIHQgaW4gdHVybnMgaWYgdFsicm9sZSJdID09ICJ1c2VyIl0pLAogICAgICAgICAgICAiZnJhbWV3b3JrIjogIkxhbmdHcmFwaCIsCiAgICAgICAgICAgICJwZXJzaXN0ZW5jZSI6ICLshJzrsoQg7Iuk7ZaJIOykkSDshLjshZgg6riw7Ja1IiwKICAgICAgICB9CiAgICAgICAgcmVzdWx0WyJjb252ZXJzYXRpb24iXSA9IHR1cm5zCiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgInJlc3VsdCI6IHJlc3VsdCwKICAgICAgICAgICAgImRlc3RpbmF0aW9uIjogZGVzdGluYXRpb24sCiAgICAgICAgICAgICJiYXR0ZXJ5IjogaW50KHJlc3VsdC5nZXQoImJhdHRlcnkiLCBiYXR0ZXJ5KSksCiAgICAgICAgICAgICJwcmVmZXJlbmNlIjogcHJlZmVyZW5jZSwKICAgICAgICAgICAgImV4Y2x1ZGVkX2lkcyI6IGV4Y2x1ZGVkLAogICAgICAgICAgICAidHVybnMiOiB0dXJucywKICAgICAgICAgICAgInNlbGVjdGVkX3BsYWNlIjogTm9uZSwKICAgICAgICB9CgogICAgZGVmIGludm9rZShzZWxmLCB0aHJlYWRfaWQ6IHN0ciwgcGF5bG9hZDogZGljdFtzdHIsIEFueV0pIC0+IGRpY3Rbc3RyLCBBbnldOgogICAgICAgIGNvbmZpZyA9IHsiY29uZmlndXJhYmxlIjogeyJ0aHJlYWRfaWQiOiB0aHJlYWRfaWR9fQogICAgICAgIHN0YXRlID0gc2VsZi5ncmFwaC5pbnZva2UocGF5bG9hZCwgY29uZmlnPWNvbmZpZykKICAgICAgICByZXN1bHQgPSBzdGF0ZVsicmVzdWx0Il0KICAgICAgICByZXN1bHRbInRocmVhZF9pZCJdID0gdGhyZWFkX2lkCiAgICAgICAgcmV0dXJuIHJlc3VsdAoKICAgIGRlZiBjbGVhcihzZWxmLCB0aHJlYWRfaWQ6IHN0cikgLT4gTm9uZToKICAgICAgICBzZWxmLm1lbW9yeS5kZWxldGVfdGhyZWFkKHRocmVhZF9pZCkK
+"""LangGraph 기반 멀티턴 대화 상태 관리.
+
+같은 thread_id에서 목적지, 배터리, 이전 추천, 제외 시설과 선호조건을 이어받는다.
+무료 로컬 실행을 위해 InMemorySaver를 사용하므로 서버를 재시작하면 상태는 초기화된다.
+"""
+from __future__ import annotations
+
+import re
+from typing import Any
+from typing_extensions import TypedDict
+
+from langgraph.checkpoint.memory import InMemorySaver
+from langgraph.graph import END, START, StateGraph
+
+from agent_core import extract_battery
+from merchant_places import shop_query
+
+
+class ConversationState(TypedDict, total=False):
+    query: str
+    connector: str | None
+    vehicle: str | None
+    battery: int
+    battery_override: bool
+    origin: str
+    origin_lat: float | None
+    origin_lon: float | None
+    preference: str
+    count: int
+    selected_place: dict[str, Any] | None
+    destination: str
+    excluded_ids: list[str]
+    result: dict[str, Any]
+    turns: list[dict[str, str]]
+
+
+FOLLOWUP_WORDS = ("빼고", "말고", "제외", "다시", "다른 곳", "더 가까", "더 안정", "더 안전", "대기 위험", "이동시간")
+BATTERY_ONLY = re.compile(
+    r"(?:(?:지금|현재)\s*)?(?:배터리(?:\s*잔량)?(?:은|는|이|가)?\s*)?"
+    r"\d{1,3}\s*(?:%|퍼센트|프로)\s*"
+    r"(?:야|이야|예요|이에요|입니다|남았어(?:요)?|로\s*(?:바꿔\s*줘|다시\s*추천해\s*줘))?[.!?]?"
+)
+
+
+class ConversationGraph:
+    def __init__(self, service):
+        self.service = service
+        builder = StateGraph(ConversationState)
+        builder.add_node("plan", self._plan)
+        builder.add_edge(START, "plan")
+        builder.add_edge("plan", END)
+        self.memory = InMemorySaver()
+        self.graph = builder.compile(checkpointer=self.memory)
+
+    def _has_local_place(self, query: str) -> bool:
+        q = query.replace(" ", "").lower()
+        spot_col = "관광지명" if "관광지명" in self.service.spots.columns else "장소명"
+        known = list(self.service.spots[spot_col].dropna().astype(str))
+        known += list(self.service.stations["충전소명"].dropna().astype(str))
+        # 읍·면·동처럼 명확한 행정지명도 새 목적지로 취급한다.
+        if shop_query(query) or any(str(place) in query for place in self.service.stations["읍면동"].dropna().unique()):
+            return True
+        return any(name.replace(" ", "").lower() in q for name in known if len(name) >= 2)
+
+    def _plan(self, state: ConversationState) -> dict[str, Any]:
+        query = (state.get("query") or "").strip()
+        previous = state.get("result") if isinstance(state.get("result"), dict) else None
+        excluded = list(dict.fromkeys(state.get("excluded_ids") or []))
+
+        if previous and previous.get("ok") and any(w in query for w in ("빼고", "말고", "제외")):
+            compact = re.sub(r"\s+", "", query.lower())
+            for plan in ("A", "B"):
+                station = previous.get(plan) or {}
+                label = plan.lower()
+                if (f"plan{label}" in compact or f"플랜{label}" in compact) and station.get("id"):
+                    excluded.append(str(station["id"]))
+        if previous and previous.get("ok") and "다른 곳" in query:
+            station = previous.get("A") or {}
+            if station.get("id"):
+                excluded.append(str(station["id"]))
+        excluded = list(dict.fromkeys(excluded))
+
+        explicit_battery = extract_battery(query)
+        battery_only = explicit_battery is not None and BATTERY_ONLY.fullmatch(query) is not None
+        is_followup = battery_only or any(w in query for w in FOLLOWUP_WORDS)
+        contextual = bool(previous and previous.get("ok") and is_followup and not self._has_local_place(query))
+        context_place = previous["dest"]["name"] if contextual else None
+        clarifying = bool(previous and previous.get("clarify"))
+        lookup_query = query
+        if clarifying and previous.get("place_retry"):
+            district = re.fullmatch(r"([가-힣]{2,10}?)(?:이야|이에요|예요|이요|쪽이야)?[.!]?", query)
+            if district:
+                region = district[1]
+                known_regions = set(self.service.stations["읍면동"].dropna().astype(str)) | {"제주시","서귀포","애월","함덕","성산","한림","중문","협재"}
+                if region in known_regions:
+                    lookup_query = "목적지: " + region + " " + previous["place_retry"]
+
+        battery = int(state.get("battery", 40))
+        if explicit_battery is not None:
+            battery = explicit_battery
+        elif previous and not state.get("battery_override", False) and (clarifying or contextual or "아까랑 같" in query or "그대로" in query):
+            battery = int(previous.get("battery", previous.get("memory", {}).get("battery", battery)))
+
+        preference = state.get("preference", "균형 추천")
+        if "대기 위험" in query or "대기 적" in query or "기다릴 위험" in query or "덜 기다" in query:
+            preference = "대기 위험 우선"
+        elif "더 가까" in query or "이동시간" in query:
+            preference = "이동시간 우선"
+        elif "plan b" in query.lower() and any(w in query for w in ("안전","안정")):
+            preference = "Plan B 우선"
+
+        result = self.service.ask(
+            query=lookup_query,
+            vehicle=state.get("vehicle"),
+            connector=state.get("connector"),
+            battery=battery,
+            origin_text=state.get("origin", ""),
+            origin_lat=state.get("origin_lat"),
+            origin_lon=state.get("origin_lon"),
+            preference=preference,
+            count=int(state.get("count", 3)),
+            context_place=context_place,
+            exclude_ids=excluded,
+            selected_place=state.get("selected_place"),
+        )
+
+        result["query"] = query
+        turns = list(state.get("turns") or [])
+        turns.append({"role": "user", "text": query})
+        turns.append({"role": "assistant", "text": result.get("summary", "")})
+        turns = turns[-8:]
+        destination = result.get("dest", {}).get("name") if result.get("ok") else state.get("destination", "")
+        result["memory"] = {
+            "destination": destination,
+            "battery": result.get("battery", battery),
+            "excluded_count": len(excluded),
+            "turn_count": len([t for t in turns if t["role"] == "user"]),
+            "framework": "LangGraph",
+            "persistence": "서버 실행 중 세션 기억",
+        }
+        result["conversation"] = turns
+        return {
+            "result": result,
+            "destination": destination,
+            "battery": int(result.get("battery", battery)),
+            "preference": preference,
+            "excluded_ids": excluded,
+            "turns": turns,
+            "selected_place": None,
+        }
+
+    def invoke(self, thread_id: str, payload: dict[str, Any]) -> dict[str, Any]:
+        config = {"configurable": {"thread_id": thread_id}}
+        state = self.graph.invoke(payload, config=config)
+        result = state["result"]
+        result["thread_id"] = thread_id
+        return result
+
+    def clear(self, thread_id: str) -> None:
+        self.memory.delete_thread(thread_id)

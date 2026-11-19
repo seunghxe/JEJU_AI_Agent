@@ -1,1 +1,46 @@
-aW1wb3J0IGpzb24KCmZyb20gamVqdWRhdGFodWJfY2xpZW50IGltcG9ydCBKZWp1RGF0YUh1YkNsaWVudAoKCmRlZiB0ZXN0X2ZhbGxiYWNrX2hpc3RvcnlfaXNfdXNlZCh0bXBfcGF0aCwgbW9ua2V5cGF0Y2gpOgogICAgbW9ua2V5cGF0Y2guZGVsZW52KCJKRUpVX0RBVEFIVUJfUFJPSkVDVF9LRVkiLCByYWlzaW5nPUZhbHNlKQogICAgbW9ua2V5cGF0Y2guZGVsZW52KCJKRUpVX0RBVEFIVUJfQ0hBUkdFX0RBVEFfQ09ERSIsIHJhaXNpbmc9RmFsc2UpCiAgICBwYXRoID0gdG1wX3BhdGggLyAiaGlzdG9yeS5qc29uIgogICAgcGF0aC53cml0ZV90ZXh0KGpzb24uZHVtcHMoeyJzdGF0aW9ucyI6IHsiRjEiOiB7InBlYWtfaG91cnMiOiBbMTZdfX19KSwgZW5jb2Rpbmc9InV0Zi04IikKICAgIGNsaWVudCA9IEplanVEYXRhSHViQ2xpZW50KHBhdGgpCiAgICBhc3NlcnQgY2xpZW50LnN0YXRpb25fY29udGV4dCgiRjEiLCBob3VyPTE2KVsicGVuYWx0eSJdID09IDcKICAgIGFzc2VydCBjbGllbnQuc3RhdGlvbl9jb250ZXh0KCJGMSIsIGhvdXI9MTUpWyJwZW5hbHR5Il0gPT0gMwogICAgYXNzZXJ0IGNsaWVudC5zdGF0aW9uX2NvbnRleHQoIkYxIiwgaG91cj0xMClbInBlbmFsdHkiXSA9PSAwCgoKZGVmIHRlc3RfNDAzX21lc3NhZ2VfZG9lc19ub3RfZXhwb3NlX3Byb2plY3Rfa2V5KHRtcF9wYXRoLCBtb25rZXlwYXRjaCk6CiAgICBwYXRoID0gdG1wX3BhdGggLyAiaGlzdG9yeS5qc29uIgogICAgcGF0aC53cml0ZV90ZXh0KCd7InN0YXRpb25zIjoge319JywgZW5jb2Rpbmc9InV0Zi04IikKICAgIG1vbmtleXBhdGNoLnNldGVudigiSkVKVV9EQVRBSFVCX1BST0pFQ1RfS0VZIiwgInZlcnktc2VjcmV0LXByb2plY3Qta2V5IikKICAgIG1vbmtleXBhdGNoLnNldGVudigiSkVKVV9EQVRBSFVCX0NIQVJHRV9EQVRBX0NPREUiLCAiMTM2IikKICAgIG1vbmtleXBhdGNoLnNldGVudigiSkVKVV9EQVRBSFVCX01PREUiLCAiYXBpIikKCiAgICBjbGFzcyBGb3JiaWRkZW46CiAgICAgICAgc3RhdHVzX2NvZGUgPSA0MDMKICAgICAgICBkZWYgcmFpc2VfZm9yX3N0YXR1cyhzZWxmKToKICAgICAgICAgICAgcmV0dXJuIE5vbmUKCiAgICBtb25rZXlwYXRjaC5zZXRhdHRyKCJqZWp1ZGF0YWh1Yl9jbGllbnQucmVxdWVzdHMuZ2V0IiwgbGFtYmRhICphcmdzLCAqKmt3YXJnczogRm9yYmlkZGVuKCkpCiAgICBzdGF0dXMgPSBKZWp1RGF0YUh1YkNsaWVudChwYXRoKS5yZWZyZXNoKCkKICAgIGFzc2VydCBzdGF0dXNbInN0YXRlIl0gPT0gImVycm9yIgogICAgYXNzZXJ0ICI0MDMiIGluIHN0YXR1c1sidGV4dCJdIGFuZCAidmVyeS1zZWNyZXQiIG5vdCBpbiBzdGF0dXNbInRleHQiXQoKCmRlZiB0ZXN0X3dhaXRfcmlza19jb21iaW5lc193ZWVrZGF5X3dhaXRfYW5kX2Zsb2F0aW5nKHRtcF9wYXRoLCBtb25rZXlwYXRjaCk6CiAgICBtb25rZXlwYXRjaC5kZWxlbnYoIkpFSlVfREFUQUhVQl9QUk9KRUNUX0tFWSIsIHJhaXNpbmc9RmFsc2UpCiAgICBwYXRoID0gdG1wX3BhdGggLyAiaGlzdG9yeS5qc29uIgogICAgcGF0aC53cml0ZV90ZXh0KCd7InN0YXRpb25zIjoge319JywgZW5jb2Rpbmc9InV0Zi04IikKICAgIGNsaWVudCA9IEplanVEYXRhSHViQ2xpZW50KHBhdGgpCiAgICBjbGllbnQud2Vla2x5ID0geyJGMSI6IHsi7JuUIjogMTAsICLtmZQiOiAyMH19CiAgICBjbGllbnQud2FpdCA9IHsiRjEiOiAxMn0KICAgIGNsaWVudC5mbG9hdGluZ19wZXJjZW50aWxlID0geyLshLHsgrDsnY0iOiAuOH0KICAgIGNvbnRleHQgPSBjbGllbnQuc3RhdGlvbl9jb250ZXh0KCJGMSIsICLthYzsiqTtirgg7Lap7KCE7IaMIiwgIuyEseyCsOydjSIsIHdlZWtkYXk9Iu2ZlCIpCiAgICBhc3NlcnQgY29udGV4dFsibGV2ZWwiXSA9PSAiaGlnaCIKICAgIGFzc2VydCBjb250ZXh0WyJjb25maWRlbmNlIl0gPT0gIuuGkuydjCIKICAgIGFzc2VydCBsZW4oY29udGV4dFsiZXZpZGVuY2UiXSkgPT0gMwo=
+import json
+
+from jejudatahub_client import JejuDataHubClient
+
+
+def test_fallback_history_is_used(tmp_path, monkeypatch):
+    monkeypatch.delenv("JEJU_DATAHUB_PROJECT_KEY", raising=False)
+    monkeypatch.delenv("JEJU_DATAHUB_CHARGE_DATA_CODE", raising=False)
+    path = tmp_path / "history.json"
+    path.write_text(json.dumps({"stations": {"F1": {"peak_hours": [16]}}}), encoding="utf-8")
+    client = JejuDataHubClient(path)
+    assert client.station_context("F1", hour=16)["penalty"] == 7
+    assert client.station_context("F1", hour=15)["penalty"] == 3
+    assert client.station_context("F1", hour=10)["penalty"] == 0
+
+
+def test_403_message_does_not_expose_project_key(tmp_path, monkeypatch):
+    path = tmp_path / "history.json"
+    path.write_text('{"stations": {}}', encoding="utf-8")
+    monkeypatch.setenv("JEJU_DATAHUB_PROJECT_KEY", "very-secret-project-key")
+    monkeypatch.setenv("JEJU_DATAHUB_CHARGE_DATA_CODE", "136")
+    monkeypatch.setenv("JEJU_DATAHUB_MODE", "api")
+
+    class Forbidden:
+        status_code = 403
+        def raise_for_status(self):
+            return None
+
+    monkeypatch.setattr("jejudatahub_client.requests.get", lambda *args, **kwargs: Forbidden())
+    status = JejuDataHubClient(path).refresh()
+    assert status["state"] == "error"
+    assert "403" in status["text"] and "very-secret" not in status["text"]
+
+
+def test_wait_risk_combines_weekday_wait_and_floating(tmp_path, monkeypatch):
+    monkeypatch.delenv("JEJU_DATAHUB_PROJECT_KEY", raising=False)
+    path = tmp_path / "history.json"
+    path.write_text('{"stations": {}}', encoding="utf-8")
+    client = JejuDataHubClient(path)
+    client.weekly = {"F1": {"월": 10, "화": 20}}
+    client.wait = {"F1": 12}
+    client.floating_percentile = {"성산읍": .8}
+    context = client.station_context("F1", "테스트 충전소", "성산읍", weekday="화")
+    assert context["level"] == "high"
+    assert context["confidence"] == "높음"
+    assert len(context["evidence"]) == 3

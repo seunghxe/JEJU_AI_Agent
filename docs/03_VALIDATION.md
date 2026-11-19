@@ -1,1 +1,43 @@
-IyDqsoDspp0g67Cp67KVwrfsi6Ttlokg6rKw6rO8CgrsnpHshLHsnbwgMjAyNi0xMS0xOS4g7JuQ7IucIOyLpO2WiSDstpzroKXCt+2ZmOqyvcK3642w7J207YSwIFNIQTI1NjogdmFsaWRhdGlvbl9yZXN1bHRzLmpzb24uIOyEpOy5mCDrnbzsnbTruIzrn6zrpqw6IHJlcXVpcmVtZW50cy10ZXN0ZWQudHh0LCBkZXBlbmRlbmN5X2ludmVudG9yeS5qc29uLgoKIyMg7J2067KIIOyLpO2WiQoKfCDqsoDspp0gfCDqsrDqs7wgfCDrspTsnIQgfAp8LS0tfC0tLXwtLS18CnwgUHl0aG9uIDMuMTIuMTQg7IOIIOqwgOyDge2ZmOqyvSDshKTsuZggfCDshLHqs7UgfCBMaW51eCB8CnwgcHl0ZXN0IHRlc3RzIHwgNjkgcGFzc2VkIHwg64uo7JyEL+uqqOydmCDsmbjrtoAgQVBJL+yLpOygnCDsp5Hqs4Qg66Gc65SpL+uhnOy7rCDthrXtlakgfAp8IOyLpOygnCDtl4jruIwg7KeR6rOEIO2ctOuMgOyEsSB8IO2GteqzvCB8IO2CpMK364Sk7Yq47JuM7YGsIOyXhuydtCAzNDYvMTYvMzQwLzQz6rCcIOyXsOqysCB8Cnwgbm9kZSAtLWNoZWNrIHN0YXRpYy9hcHAuanMgfCDthrXqs7wgfCBKUyDrrLjrspUgfAp8IGNoZWNrX2dhcmFnZV91aS5janMgfCDthrXqs7wgfCDsl6zrn6wg7KSEIOyeheugpcK37KCE7IahIO2bhCDruYTsm4DCt0lNRcK36ri47J20wrfsgqzsp4Qg66ek7ZWRwrfsmpTssq0gZXNjYXBlIHwKfCBjaGVja19zdGF0dXNfdWkuY2pzIHwg7Ya16rO8IHwg7ZeI67iMIOynp+ydgCDsmpTslb3Ct+q4sOuzuCDsoJHtnpjCt+yDgeyEuCDqsbTsiJgg7Jyg7KeAwrfsi6TtjKgv67aA67aEL+ykgOu5hCDsg4Htg5wgfAp8IHBpcCBjaGVjayB8IO2GteqzvCB8IOyEpOy5mCDsnZjsobTshLEg7Lap64+MIOyXhuydjCB8CgrsnbTsoIQg7Yyo7YKk7KeV7J2YIDY46rCcIOqygOymneyXkCDrs7XsiJgg7J6l7IaMIO2bhOuztCDtmZXsnbjqs7wg7IKs7Jqp7J6QIOyEoO2DnSDtm4Qg67Cw7YSw66asIOyDge2DnCDsnKDsp4Ag6rKA7Kad7J2EIOy2lOqwgO2VtCA2OeqwnOqwgCDthrXqs7ztlojsirXri4jri6QuIFN0YXJsZXR0ZS9BbnlJTyDqtIDroKggRGVwcmVjYXRpb25XYXJuaW5nIDHqsbTsnYAg64Ko7JWEIOyeiOyKteuLiOuLpC4KCiMjIOyLpOygnCDroZzsu6wgQVBJIOyYiOyLnCAo7Jm467aAIO2CpCDsl4bsnYwpCgp8IOyalOyyrSB8IOq0gOy4oSDqsrDqs7wgfAp8LS0tfC0tLXwKfCDshLHsgrDsnbzstpzrtIkg6re87LKYIOy2qeyghOyGjCDssL7slYTspJguIOuwsO2EsOumrOuKlCAzMCXslbwgfCBIVFRQIDIwMCwgQSDshLHsgrDsnbzstpzrtIksIEIg7Zy07JWI7Iqk7YWM7J207Zi47YWULCDrsLDthLDrpqwgMzAlIHwKfCDqsJnsnYAgdGhyZWFkX2lk66GcIFBsYW4gQeuKlCDrubzqs6Ag64uk7IucIOywvuyVhOykmCB8IEhUVFAgMjAwLCBBIOygnOyjvOyEnOq3gO2PrOyEseyCsO2MjOy2nOyGjCwgQiDtnLTslYjsiqTthYzsnbTtmLjthZQsIOuqqeyggeyngMK3MzAlIOycoOyngCwg7KCc7Jm4IDHqs7MgfAp8IHp6cXF4eCB8IEhUVFAgMjAwLCBjbGFyaWZ5PXRydWUsIOuPmeuEpMK37KCV7ZmV7ZWcIOydtOumhCDrs7Tstqkg7KeI66y4IHwKfCDqsJnsnYAg7IOB7Zi47J2YIOy5tOy5tOyYpCDtm4Trs7QgMuqzsyjrqqjsnZjsnZHri7UpIHwgSFRUUCAyMDAsIGNsYXJpZnk9dHJ1ZSwg7KO87IaMIO2bhOuztCAy6rOzIOuwmO2ZmDsg7ISg7YOdIO2bhCDrsLDthLDrpqwgMjclIOycoOyngCB8CgrsnbTripQgQVBJIO2CpCDsl4bripQg7ZeI67iMIOyggOyepSDsp5Hqs4TCt+qzvOqxsCDsnpDro4zCt+q3nOy5mSDrqqjrk5zsnoXri4jri6QuIO2YhOyerCDqsIDsmqnshLHsnbTrgpgg64+E66Gc7Iuc6rCE7J2EIO2ZleyduO2VnCDqsrDqs7zqsIAg7JWE64uZ64uI64ukLiDrgqDsp5zCt+yEpOyglcK37J6Q66OMIOuzgOqyveyXkCDrlLDrnbwg7Iic7JyE64qUIOuLrOudvOyniCDsiJgg7J6I7Iq164uI64ukLgoKIyMg7YWM7Iqk7Yq4IOuylOychAoK6riw67O4IOy2lOyynCwg66qp7KCB7KeAIOqygOyDiSwg67O17IiYIOyepeyGjCDso7zshowg7ISg7YOdLCDqt5zqsqksIOyggOuwsO2EsOumrCDqsr3qs6AsIOuPheumvSBQbGFuIEIsIEIg7J6s7YOQ7IOJLCDtm4Tsho0g7KGw6rG0IOycoOyngCwg7J6l7IaMIOuztOy2qSDsp4jrrLgsIEFQSSDsmKTrpZgsIO2XiOu4jCDtlYTrk5wg67OE7LmtLCDsi5zqsIQg7YyM7IuxLCAw7ZqMwrfqsrDsuKEg6rWs67OELCDtjpjsnbTsp4Ag67CY67O1IOuwqeyngCwg7LqQ7IucIOyerOyCrOyaqSDrk7HsnYQg7Y+s7ZWo7ZWp64uI64ukLiDtl4jruIwvQVBJIO2FjOyKpO2KuOuKlCDrqqjsnZjsnZHri7XsnYQg7J207Jqp7ZWY66+A66GcIOyLpCDshJzruYTsiqQg7Zi47LacIOyEseqztSDspp3qsbDsmYAg6rWs67aE7ZWp64uI64ukLgoKIyMg7JWE7KeBIOqygOymne2VmOyngCDslYrsnYAg7ZWt66qpCgotIFdpbmRvd3PCt+yEvO2EsCBQQyDsg4gg7ISk7LmYIOuwjyDsi6TsoJwg7Zy064yA7Y+wIOu4jOudvOyasOyggCDsi5zsl7AKLSDsi6TsoJwgR2VtaW5pwrfsubTsubTsmKTCt+2ZmOqyveqzteuLqMK37KCc7KO8642w7J207YSw7ZeI67iMIEFQSSDtmLjstpwKLSDsoJzso7zrjbDsnbTthLDtl4jruIwg7JuQ7IucIOydkeuLteu2gO2EsCDsnqzsiJjsp5HtlZjripQg7J6s7ZiEKOuPmeu0iSDsp5Hqs4Qg66Gc65Sp7J2AIOqygOymneuQqCkKLSDqs7XqsJwg67Cw7Y+sIFVSTMK3RG9ja2VyIOu5jOuTnMK364+Z7IucIOyCrOyaqeyekCDrtoDtlZgKLSDsi6TsoJwg7Lap7KCEIOyEseqzteuloMK364yA6riw7Iuc6rCEwrfsnbTrj5nsi5zqsIQg6rCc7ISgCi0g7Iuk7KCcIOu4jOudvOyasOyggCDtmZTrqbQg7ZS97IWAL+uwmOydke2YlSDsi5zqsIEg7KCQ6rKAKOydtOuyiCDsnpHsl4XsnYAgRE9NIOuMgOyXrSDroZzsp4Eg7YWM7Iqk7Yq4KQoK7KCc7LacIOyghCDtjIAgUEPsl5DshJwg7ZeI67iMIOyXsOqysCDtmZTrqbTqs7wg7Iuc7ISk67OEIOq3vOqxsOqwgCDrk5zrn6zrgpwg7LaU7LKcIOqysOqzvCwg7LCo65+J7Iuc6rCEIOydkeuLtSwg7ZuE7IaNIOyniOusuCDqsrDqs7zrpbwg7Lqh7LKY7ZWY65CYIO2CpMK37JqU7LKtIFVSTOydgCDqsIDrpr3ri4jri6QuIOqwmeydgCDsnoXroKXsl5Ag64yA7ZWcIOqxsOumrCDsmrDshKDqs7wgQWdlbnQg67mE6rWQIOyLpO2XmOydgCDtlqXtm4Qg7Y+J6rCA7J2066mwIO2YhOyerCDsoJXrn4kg7ISx64ql7Jy866GcIOyjvOyepe2VmOyngCDslYrsirXri4jri6QuCg==
+# 검증 방법·실행 결과
+
+작성일 2026-11-19. 원시 실행 출력·환경·데이터 SHA256: validation_results.json. 설치 라이브러리: requirements-tested.txt, dependency_inventory.json.
+
+## 이번 실행
+
+| 검증 | 결과 | 범위 |
+|---|---|---|
+| Python 3.12.14 새 가상환경 설치 | 성공 | Linux |
+| pytest tests | 69 passed | 단위/모의 외부 API/실제 집계 로딩/로컬 통합 |
+| 실제 허브 집계 휴대성 | 통과 | 키·네트워크 없이 346/16/340/43개 연결 |
+| node --check static/app.js | 통과 | JS 문법 |
+| check_garage_ui.cjs | 통과 | 여러 줄 입력·전송 후 비움·IME·길이·사진 매핑·요청 escape |
+| check_status_ui.cjs | 통과 | 허브 짧은 요약·기본 접힘·상세 건수 유지·실패/부분/준비 상태 |
+| pip check | 통과 | 설치 의존성 충돌 없음 |
+
+이전 패키징의 68개 검증에 복수 장소 후보 확인과 사용자 선택 후 배터리 상태 유지 검증을 추가해 69개가 통과했습니다. Starlette/AnyIO 관련 DeprecationWarning 1건은 남아 있습니다.
+
+## 실제 로컬 API 예시 (외부 키 없음)
+
+| 요청 | 관측 결과 |
+|---|---|
+| 성산일출봉 근처 충전소 찾아줘. 배터리는 30%야 | HTTP 200, A 성산일출봉, B 휴안스테이호텔, 배터리 30% |
+| 같은 thread_id로 Plan A는 빼고 다시 찾아줘 | HTTP 200, A 제주서귀포성산파출소, B 휴안스테이호텔, 목적지·30% 유지, 제외 1곳 |
+| zzqqxx | HTTP 200, clarify=true, 동네·정확한 이름 보충 질문 |
+| 같은 상호의 카카오 후보 2곳(모의응답) | HTTP 200, clarify=true, 주소 후보 2곳 반환; 선택 후 배터리 27% 유지 |
+
+이는 API 키 없는 허브 저장 집계·과거 자료·규칙 모드입니다. 현재 가용성이나 도로시간을 확인한 결과가 아닙니다. 날짜·설정·자료 변경에 따라 순위는 달라질 수 있습니다.
+
+## 테스트 범위
+
+기본 추천, 목적지 검색, 복수 장소 주소 선택, 규격, 저배터리 경고, 독립 Plan B, B 재탐색, 후속 조건 유지, 장소 보충 질문, API 오류, 허브 필드 별칭, 시간 파싱, 0회·결측 구별, 페이지 반복 방지, 캐시 재사용 등을 포함합니다. 허브/API 테스트는 모의응답을 이용하므로 실 서비스 호출 성공 증거와 구분합니다.
+
+## 아직 검증하지 않은 항목
+
+- Windows·센터 PC 새 설치 및 실제 휴대폰 브라우저 시연
+- 실제 Gemini·카카오·환경공단·제주데이터허브 API 호출
+- 제주데이터허브 원시 응답부터 재수집하는 재현(동봉 집계 로딩은 검증됨)
+- 공개 배포 URL·Docker 빌드·동시 사용자 부하
+- 실제 충전 성공률·대기시간·이동시간 개선
+- 실제 브라우저 화면 픽셀/반응형 시각 점검(이번 작업은 DOM 대역 로직 테스트)
+
+제출 전 팀 PC에서 허브 연결 화면과 시설별 근거가 드러난 추천 결과, 차량시간 응답, 후속 질문 결과를 캡처하되 키·요청 URL은 가립니다. 같은 입력에 대한 거리 우선과 Agent 비교 실험은 향후 평가이며 현재 정량 성능으로 주장하지 않습니다.
